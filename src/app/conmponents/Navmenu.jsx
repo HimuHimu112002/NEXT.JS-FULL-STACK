@@ -17,7 +17,8 @@ const Navmenu = () => {
                     <li><a>Testimonial</a></li>
                 </ul>
             </div>
-            <Image src='image/logo.png' className="w-100" alt='logo'/>
+            {/* <Image width={100} height={0} src='image/logo.png' className="w-100" alt='logo'/> */}
+            <h1>agency</h1>
         </div>
         <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-4">
