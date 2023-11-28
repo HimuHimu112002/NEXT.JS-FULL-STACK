@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Navmenu = () => {
@@ -16,7 +17,7 @@ const Navmenu = () => {
                     <li><a>Testimonial</a></li>
                 </ul>
             </div>
-            <img src='image/logo.png' className="w-100"></img>
+            <Image src='image/logo.png' className="w-100" alt='logo'/>
         </div>
         <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-4">

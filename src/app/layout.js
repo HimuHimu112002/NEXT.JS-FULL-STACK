@@ -1,6 +1,5 @@
 import './globals.css'
 import Navmenu from './conmponents/Navmenu'
-import NextTopLoader from 'nextjs-toploader';
 
 export async function generateMetadata(){
   const res=await fetch("https://agency.teamrabbil.com/api/SiteMeta/home");
@@ -19,7 +18,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-      <NextTopLoader color="#269669" height={3} speed={200} />
       <Navmenu/>
       {children}
       </body>
