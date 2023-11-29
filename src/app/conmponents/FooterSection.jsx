@@ -60,7 +60,7 @@ const FooterSection = async () => {
                                     </svg>
                                 </li>
                                 <li className="w-full md:w-auto mb-2 md:mb-0">
-                                    <Link className="lg:text-sm text-gray-400 hover:text-gray-300" href={"/services"}>
+                                    <Link className="lg:text-sm text-gray-400 hover:text-gray-300" href={"/service"}>
                                         Services
                                     </Link>
                                 </li>

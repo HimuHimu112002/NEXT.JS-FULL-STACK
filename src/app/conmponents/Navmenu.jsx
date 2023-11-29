@@ -4,7 +4,7 @@ import React from 'react'
 
 const Navmenu = () => {
   return (
-    <div className="container navbar bg-base-100 shadow m-auto">
+    <div className="navbar bg-base-100 shadow m-auto">
         <div className="navbar-start">
             <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -13,18 +13,18 @@ const Navmenu = () => {
                 <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                     <Link className="mt-2 mx-4" href={"/"}>Home</Link>
                     <Link className="mt-2 mx-4" href={"/team"}>Team</Link>
-                    <Link className="mt-2 mx-4" href={"/"}>Service</Link>
+                    <Link className="mt-2 mx-4" href={"/service"}>Service</Link>
                     <Link className="mt-2 mx-4" href={"/"}>Project</Link>
                     <Link className="mt-2 mx-4" href={"/"}>Testimonial</Link>
                 </ul>
             </div>
-            <h1 className='text-3xl font-bold'>agency</h1>
+            <h1 className='text-3xl font-bold ml-40'>agency</h1>
         </div>
         <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal">
                 <Link className="mt-2 mx-4" href={"/"}>Home</Link>
                 <Link className="mt-2 mx-4" href={"/team"}>Team</Link>
-                <Link className="mt-2 mx-4" href={"/"}>Service</Link>
+                <Link className="mt-2 mx-4" href={"/service"}>Service</Link>
                 <Link className="mt-2 mx-4" href={"/"}>Project</Link>
                 <Link className="mt-2 mx-4" href={"/"}>Testimonial</Link>
             </ul>

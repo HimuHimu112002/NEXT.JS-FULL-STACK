@@ -1,9 +1,9 @@
 import React from 'react'
-import TeamMember from '../conmponents/TeamMember'
+import Services from '../conmponents/Services'
 
 const page = () => {
   return (
-    <TeamMember/>
+    <Services/>
   )
 }
 

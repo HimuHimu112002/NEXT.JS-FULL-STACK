@@ -18,3 +18,13 @@ export async function FeaturedData(){
     const res=await fetch("https://agency.teamrabbil.com/api/FeaturedProject");
     return res.json();
 }
+
+export async function TeamData(){
+    const res=await fetch("https://agency.teamrabbil.com/api/TeamList");
+    return res.json();
+}
+
+export async function ServiceData(){
+    const res=await fetch("https://agency.teamrabbil.com/api/AllService");
+    return res.json();
+}
