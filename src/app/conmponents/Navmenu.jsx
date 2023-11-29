@@ -14,8 +14,8 @@ const Navmenu = () => {
                     <Link className="mt-2 mx-4" href={"/"}>Home</Link>
                     <Link className="mt-2 mx-4" href={"/team"}>Team</Link>
                     <Link className="mt-2 mx-4" href={"/service"}>Service</Link>
-                    <Link className="mt-2 mx-4" href={"/"}>Project</Link>
-                    <Link className="mt-2 mx-4" href={"/"}>Testimonial</Link>
+                    <Link className="mt-2 mx-4" href={"/project"}>Project</Link>
+                    <Link className="mt-2 mx-4" href={"/testimonial"}>Testimonial</Link>
                 </ul>
             </div>
             <h1 className='text-3xl font-bold ml-40'>agency</h1>
@@ -25,8 +25,8 @@ const Navmenu = () => {
                 <Link className="mt-2 mx-4" href={"/"}>Home</Link>
                 <Link className="mt-2 mx-4" href={"/team"}>Team</Link>
                 <Link className="mt-2 mx-4" href={"/service"}>Service</Link>
-                <Link className="mt-2 mx-4" href={"/"}>Project</Link>
-                <Link className="mt-2 mx-4" href={"/"}>Testimonial</Link>
+                <Link className="mt-2 mx-4" href={"/project"}>Project</Link>
+                <Link className="mt-2 mx-4" href={"/testimonial"}>Testimonial</Link>
             </ul>
         </div>
     </div>

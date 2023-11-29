@@ -28,3 +28,13 @@ export async function ServiceData(){
     const res=await fetch("https://agency.teamrabbil.com/api/AllService");
     return res.json();
 }
+
+export async function ProjectData(){
+    const res=await fetch("https://agency.teamrabbil.com/api/AllProject");
+    return res.json();
+}
+
+export async function TestimonialData(){
+    const res=await fetch("https://agency.teamrabbil.com/api/TestimonialList");
+    return res.json();
+}
