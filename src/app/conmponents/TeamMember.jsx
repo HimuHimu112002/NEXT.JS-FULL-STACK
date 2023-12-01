@@ -6,8 +6,8 @@ const TeamMember = async () => {
     let data = await TeamData()
   return (
     <div className='container mx-auto mt-10'>
-        <h5 className='text-green-600 font-bold py-4'>Our Team Member</h5>
-        <h2 className='text-3xl w-96 font-bold mb-4'>Check our awesome team members</h2>
+        <h5 className='text-green-600 font-bold py-4 ml-6'>Our Team Member</h5>
+        <h2 className='text-3xl w-96 font-bold mb-4 ml-6'>Check our awesome team members</h2>
 
         <div className='flex justify-between flex-wrap'>
             {data.map((item,i)=>(
