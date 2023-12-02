@@ -18,7 +18,7 @@ const Navmenu = () => {
                     <Link className="mt-2 mx-4" href={"/testimonial"}>Testimonial</Link>
                 </ul>
             </div>
-            <h1 className='text-3xl font-bold ml-40'>agency</h1>
+            <img src='image/logo.png' className='w-32 ml-40'/>
         </div>
         <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal">
