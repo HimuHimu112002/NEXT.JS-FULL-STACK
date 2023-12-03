@@ -6,7 +6,7 @@ const Herosection = async () => {
     const data = await HeroData();
     return (
         <div>
-            <section className='relative bg-gray-50'>
+            <section className='relative bg-[#D7F5DC]'>
                 <div className='relative pt-12 lg:pt-20 pb-20 z-10'>
                     <div className='container mx-auto px-4'>
                         <div className='flex flex-wrap -mx-4'>
