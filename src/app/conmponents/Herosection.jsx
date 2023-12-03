@@ -13,7 +13,7 @@ const Herosection = async () => {
                             <div className='w-full lg:w-1/2 px-4 mb-12 lg:mb-0 flex items-center'>
                                 <div className='w-full text-center lg:text-left'>
                                     <div className='max-w-md mx-auto lg:mx-0'>
-                                        <h2 className='mb-3 text-4xl lg:text-5xl font-bold font-heading'>
+                                        <h2 className='mb-3 text-4xl lg:text-5xl font-bold font-heading z-0'>
                                             <span>
                                                 {data['title']}
                                             </span>

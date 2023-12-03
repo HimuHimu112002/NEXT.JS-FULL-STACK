@@ -4,7 +4,7 @@ import React from 'react'
 
 const Navmenu = () => {
   return (
-    <div className="navbar bg-base-100 shadow m-auto">
+    <div className="navbar bg-base-100 shadow m-auto sticky top-0 z-20">
         <div className="navbar-start">
             <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
